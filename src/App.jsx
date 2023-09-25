@@ -1,11 +1,20 @@
+import Card from '../Comp / Card/card'
 import './App.css'
 
 function App() {
   return (
     <>
+      <Card />
       <div className='card'>
-        <h2>rei ayanami</h2>
-          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmephky.tumblr.com%2Fpost%2F671482130907414528&psig=AOvVaw0FIfipsMqpFXYutFBwdo6d&ust=1695344335770000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKD8pvm_uoEDFQAAAAAdAAAAABAE" />
+        <h2>Rei Ayanami</h2>
+
+          <div className="tags">
+            <span className="tag">Status: ?</span>
+            <span className="tag">Espécie: Semi-deus</span>
+            <span className="tag">Origem: Proveta</span>
+          </div>
+
+          <img src="https://i.pinimg.com/236x/7a/cf/0c/7acf0c26ae8284f23ca608b904dd1eb2.jpg" />
       </div>
     </>
     )
