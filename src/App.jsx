@@ -1,15 +1,17 @@
 import './App.css'
-import Card from './components/Card/Card/Card'
+import Card from './components/Card/Card'
 
 function App() {
   const item1 = {
     nome: 'Rick Sanchez',
     imagemUrl: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvq1zPN95dBDQfKoqbFlN0GoneO_6spmHfLQOm0_fEIxVMSL7h'
+    tags: ['Status: Vivo', 'Espécie: Humana']
   }
 
   const item2 = {
     nome: 'Morty Smith',
     imagemUrl: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQo6Cf5eg53CLVRki3nZOs2QcCByOCLFCrHPGef1P2eok9v7uJT'
+    tags: ['Origem: Terra C-137']
   }
 
   const item3 = {
